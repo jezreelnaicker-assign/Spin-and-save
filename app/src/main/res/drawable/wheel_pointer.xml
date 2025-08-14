@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Main arrow triangle at the top -->
+    <item>
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="48dp"
+            android:height="48dp"
+            android:viewportWidth="48"
+            android:viewportHeight="48">
+            <path
+                android:fillColor="#FF6B35"
+                android:pathData="M24,4 L40,36 L8,36 Z"/>
+            <path
+                android:strokeColor="#FFFFFF"
+                android:strokeWidth="2"
+                android:fillColor="#00000000"
+                android:pathData="M24,4 L40,36 L8,36 Z"/>
+        </vector>
+    </item>
+    <!-- Pointer base - larger circle -->
+    <item android:top="36dp">
+        <shape android:shape="oval">
+            <size android:width="40dp" android:height="40dp" />
+            <solid android:color="#FF6B35" />
+            <stroke android:width="3dp" android:color="#FFFFFF" />
+        </shape>
+    </item>
+    <!-- Center dot in base -->
+    <item android:top="48dp">
+        <shape android:shape="oval">
+            <size android:width="20dp" android:height="20dp" />
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+</layer-list> 

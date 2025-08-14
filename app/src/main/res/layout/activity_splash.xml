@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background">
+
+    <!-- Animated Background Elements -->
+    <View
+        android:id="@+id/floatingCircle1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/floating_circle"
+        android:alpha="0.3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp" />
+
+    <View
+        android:id="@+id/floatingCircle2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/floating_circle"
+        android:alpha="0.2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="80dp" />
+
+    <View
+        android:id="@+id/floatingCircle3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/floating_circle"
+        android:alpha="0.15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="150dp"
+        android:layout_marginStart="30dp" />
+
+    <!-- Main Logo/Icon -->
+    <ImageView
+        android:id="@+id/logoIcon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/wheel_icon"
+        android:contentDescription="App Logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="100dp" />
+
+    <!-- Main Title -->
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPIN"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="6"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintTop_toBottomOf="@+id/logoIcon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&amp; SAVE"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toBottomOf="@+id/mainTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="5dp" />
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Daily Fortune Awaits"
+        android:textSize="16sp"
+        android:textColor="#E0E0E0"
+        android:alpha="0.8"
+        app:layout_constraintTop_toBottomOf="@+id/subTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+    <!-- Loading Indicator -->
+    <ProgressBar
+        android:id="@+id/loadingIndicator"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="4dp"
+        android:progressTint="#FFD700"
+        android:progressBackgroundTint="#4DFFFFFF"
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="80dp" />
+
+    <!-- Bottom Decorative Elements -->
+    <View
+        android:id="@+id/bottomCircle1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/floating_circle"
+        android:alpha="0.25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="60dp" />
+
+    <View
+        android:id="@+id/bottomCircle2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/floating_circle"
+        android:alpha="0.1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout> 

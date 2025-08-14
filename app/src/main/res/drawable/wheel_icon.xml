@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Outer Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,10 A50,50 0 1,1 60,110 A50,50 0 1,1 60,10 Z" />
+
+    <!-- Inner Circle -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M60,20 A40,40 0 1,1 60,100 A40,40 0 1,1 60,20 Z" />
+
+    <!-- Center Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,50 A10,10 0 1,1 60,70 A10,10 0 1,1 60,50 Z" />
+
+    <!-- Spokes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,20 L65,20 L65,25 L60,25 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,95 L65,95 L65,100 L60,100 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,60 L25,60 L25,65 L20,65 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M95,60 L100,60 L100,65 L95,65 Z" />
+
+    <!-- Diagonal Spokes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30 L35,35 L32,38 L27,33 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M85,85 L90,90 L87,93 L82,88 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,90 L35,85 L38,88 L33,93 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M85,35 L90,30 L93,33 L88,38 Z" />
+
+</vector> 

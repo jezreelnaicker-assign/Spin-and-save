@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base circle -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FF6B35" />
+            <size android:width="300dp" android:height="300dp" />
+        </shape>
+    </item>
+    
+    <!-- Segment 1: Unlucky (Red) - Top -->
+    <item android:left="150dp" android:top="0dp" android:right="150dp" android:bottom="150dp">
+
+        <shape android:shape="oval">
+            <solid android:color="#FF4444" />
+        </shape>
+    </item>
+    
+    <!-- Segment 2: 5% OFF (Green) - Top Right -->
+    <item android:left="212dp" android:top="37dp" android:right="88dp" android:bottom="212dp">
+        <shape android:shape="oval">
+            <solid android:color="#4CAF50" />
+        </shape>
+    </item>
+    
+    <!-- Segment 3: Spin Again (Blue) - Right -->
+    <item android:left="150dp" android:top="150dp" android:right="0dp" android:bottom="150dp">
+        <shape android:shape="oval">
+            <solid android:color="#2196F3" />
+        </shape>
+    </item>
+    
+    <!-- Segment 4: 10% OFF (Orange) - Bottom Right -->
+    <item android:left="212dp" android:top="212dp" android:right="88dp" android:bottom="37dp">
+        <shape android:shape="oval">
+            <solid android:color="#FF9800" />
+        </shape>
+    </item>
+    
+    <!-- Segment 5: Unlucky (Red) - Bottom -->
+    <item android:left="150dp" android:top="150dp" android:right="150dp" android:bottom="0dp">
+        <shape android:shape="oval">
+            <solid android:color="#FF4444" />
+        </shape>
+    </item>
+    
+    <!-- Segment 6: Free KitKat (Purple) - Bottom Left -->
+    <item android:left="88dp" android:top="212dp" android:right="212dp" android:bottom="37dp">
+        <shape android:shape="oval">
+            <solid android:color="#9C27B0" />
+        </shape>
+    </item>
+    
+    <!-- Segment 7: Unlucky (Red) - Left -->
+    <item android:left="0dp" android:top="150dp" android:right="150dp" android:bottom="150dp">
+        <shape android:shape="oval">
+            <solid android:color="#FF4444" />
+        </shape>
+    </item>
+    
+    <!-- Segment 8: 20% OFF (Cyan) - Top Left -->
+    <item android:left="88dp" android:top="37dp" android:right="212dp" android:bottom="212dp">
+        <shape android:shape="oval">
+            <solid android:color="#00BCD4" />
+        </shape>
+    </item>
+    
+    <!-- Inner white circle -->
+    <item android:left="50dp" android:top="50dp" android:right="50dp" android:bottom="50dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+    
+    <!-- Center dot -->
+    <item android:left="140dp" android:top="140dp" android:right="140dp" android:bottom="140dp">
+        <shape android:shape="oval">
+            <solid android:color="#FF6B35" />
+        </shape>
+    </item>
+</layer-list> 
